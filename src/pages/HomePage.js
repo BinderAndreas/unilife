@@ -30,6 +30,7 @@ useEffect(() => {
                     })
                 }
             </div>
+            <a href="/allcities">See all Cities</a>
         </div>
     </div>
   )

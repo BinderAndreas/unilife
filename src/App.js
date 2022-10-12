@@ -3,15 +3,21 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AllCities from './pages/AllCities';
+
 
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <HomePage />
+      <Routes>
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/allcities" element={<AllCities />}/>
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 
