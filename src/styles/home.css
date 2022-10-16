@@ -70,7 +70,34 @@
     align-items: center;
 }
 
-.banner-bottom {
+.selection {
     display: flex;
-    width: 100%;
+    margin-bottom: 4em;
+    width: 40%;
+}
+
+.search-container {
+    display: flex;
+    margin: 0 7em;
+    justify-content: space-around;
+    
+}
+
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60em;
+
+}
+
+.citydetailspage a{
+    background-color: #3A5295;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-top: 2em;
 }

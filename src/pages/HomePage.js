@@ -38,7 +38,7 @@ useEffect(() => {
             <div className='allcities'><a href="/allcities">See all Cities</a></div>
             
         </div>
-        <div className='banner-bottom'>
+        
         <div className='comparison'>
           <h1>Compare all inclusive student homes.</h1>
           <div className='comparison-container'>
@@ -58,9 +58,11 @@ useEffect(() => {
               <h1>Bills Included</h1>
               <div className='center'><p>Bills are included in all rent prices. No hidden fees.</p></div>
             </div>
+          
           </div>
         </div>
         <div className='search-container'>
+          <div className='selection-container'>
           <div className='selection'>
             <GrSelect />
             <div className='selection-text'>
@@ -75,10 +77,13 @@ useEffect(() => {
               <p>Shortlist your favourite properties and send enquiries in one click.</p>
             </div>
           </div>
-            
+          <div className='citydetailspage'><a href="/CityDetailsPage">Search & Compare</a></div>
+          </div>
+          <img src={require('../assets/person.png')}/>
+
         </div>
-          <div></div>
-        </div>
+          
+        
     </div>
   )
 }
