@@ -8,6 +8,7 @@ import { MdChecklistRtl } from "react-icons/md";
 import { RiBillLine } from "react-icons/ri";
 import { GrSelect } from "react-icons/gr";
 import { BsHeart } from "react-icons/bs";
+import Search from '../components/Search'
 
 function HomePage() {
 
@@ -26,6 +27,7 @@ useEffect(() => {
   return (
     <div className="home-container">
         <Banner />
+        <Search />
         <div className='cities'>
             <h1>Student accomodation in our top cities</h1>
             <div className="cities-container">
