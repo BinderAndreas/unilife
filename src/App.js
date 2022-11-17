@@ -1,23 +1,20 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css';
-import HomePage from './pages/HomePage';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AllCities from './pages/AllCities';
-
-
+import Header from './components/Header'
 
 function App() {
+const [email,setEmail]=useState('')
+
+
+const handleSubmit=(e)=>{
+  e.preventDefault()
+  console.log(email)
+}
+
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<HomePage />}/>
-        <Route path="/allcities" element={<AllCities />}/>
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div>
+       <Header />
+    </div>
   );
 }
 

@@ -4,7 +4,7 @@ Create a responsive multi-page app using react-router to display data fetched fr
 
 # **Learning Outcome(s)**
 
-- Use react-router to create multiple pages (e.g., contact, about, etc.)
+- Use react-router to create multiple pages 
 - Clear usage of a component tree to structure data flow.
 - Understanding of when and where to use hooks or not.
 - Ability to break down a website into reusable components.
@@ -13,12 +13,11 @@ Create a responsive multi-page app using react-router to display data fetched fr
 
 ## **Notes**
 
-- Use functional components and hooks to create their projects.
+- Use functional components and hooks to create your projects.
 - Dynamically add child components 
 - Show and hide some elements on screen, conditional rendering
 - Filter data and show only relevant content
 - Include form as a contact form
-- Implement a search function
 
 ## Resources
 - [Link to API](https://unilife-server.herokuapp.com)
